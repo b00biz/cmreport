@@ -1,0 +1,508 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+/* change colours to suit your needs */
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* change colours to suit your needs */
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* change border colour to suit your needs */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+
+/*my code*/
+
+.main-wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(200, 200, 200);
+    font-family: 'Raleway', sans-serif, arial;
+}
+
+header nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(144, 20, 59);
+    box-shadow: 3px 3px 10px;
+}
+
+header nav ul {
+    float: left;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+header nav ul li img {
+    margin-top: 25px;
+    margin-left: 25px;
+    line-height: 63px;
+}
+
+header .nav-login {
+    float: right;
+}
+
+header .nav-login form {
+    float: left;
+    padding-top: 35px;
+}
+
+header .nav-login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: white;
+    font-family: arial;
+    line-height: 30px;
+    color: #111;
+    font-size: 14px;
+}
+
+header .nav-login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: rgb(194, 49, 95);
+    font-family: arial;
+    color: white;
+    line-height: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+}
+
+header .nav-login form button:hover {
+    background-color: rgb(230, 75, 124);
+}
+
+header .nav-login a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    float: left;
+    border: none;
+    background-color: rgb(144, 20, 59);
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+    cursor: pointer;
+}
+
+.main-container {
+    padding-top: 40px;
+}
+
+.main-container h2 {
+    font-family: arial;
+    font-size: 1.5em;
+    color: rgb(144, 20, 59);
+    line-height: 35px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif, arial;
+}
+
+.bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(144, 20, 59);
+    color: white;
+    font-family: 'Raleway', sans-serif, arial;
+    font-size: 0.7em;
+    text-align: center;
+    padding: 20px;
+    box-shadow: -2px -2px 5px black;
+}
+
+.bottom p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/*signup.php*/
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signup-form input {
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    border: none;
+    background-color: white;
+    font-family: arial;
+    line-height: 40px;
+    font-size: 16px;
+    color: #111;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: rgb(144, 20, 59);
+    font-family: arial;
+    color: white;
+    font-size: 16px;
+    color: white;
+    font-size: 14px;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: rgb(230, 75, 124);
+}
+
+
+/*formulaire reporting */
+
+.reporting-wrapper {
+    border-radius: 7px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(220, 220, 220);
+    font-family: 'Raleway', sans-serif, arial;
+    color: rgb(144, 20, 59);
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
+}
+
+select {
+    height: 20px;
+    font-family: 'Raleway', sans-serif, arial;
+    color: rgb(144, 20, 59);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.reporting-wrapper table.salles {
+    margin: 0 auto;
+    background-color: rgb(250, 250, 250);
+    width: 80%;
+    max-width: 700px;
+    border: none;
+}
+
+.reporting-wrapper table.salles td {
+    padding: 5px;
+    text-align: center;
+    border: 0.5px solid rgb(180, 180, 180);
+    background-color: rgb(250, 250, 250);
+    vertical-align: middle;
+}
+
+td input.rep-num {
+    direction: rtl;
+    max-width: 89px;
+    height: 20px;
+    font-family: 'Raleway', sans-serif, arial;
+    color: rgb(144, 20, 59);
+    font-weight: bold;
+    border: none;
+}
+
+td input.rep-tot {
+    direction: rtl;
+    max-width: 89px;
+    height: 20px;
+    font-family: 'Raleway', sans-serif, arial;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+    border: none;
+}
+
+.reporting-wrapper table {
+    margin: 0 auto;
+    background-color: rgb(250, 250, 250);
+    width: 80%;
+    max-width: 700px;
+}
+
+.reporting-wrapper table td {
+    padding: 5px;
+    text-align: right;
+    border: 0.5px solid rgb(180, 180, 180);
+    background-color: rgb(250, 250, 250);
+    vertical-align: middle;
+}
+
+.reporting-wrapper table tr.nope {
+    background-color: rgb(185, 185, 185);
+    border: 0px solid white;
+}
+
+.reporting-wrapper table td.none {
+    padding: 5px;
+    text-align: center;
+    border: 0.5px solid white;
+    background-color: rgb(144, 20, 59);
+    vertical-align: middle;
+    color: white;
+}
+
+.reporting-wrapper table td.none2 {
+    padding: 5px;
+    text-align: center;
+    border: 0px solid white;
+    background-color: rgb(220, 220, 220);
+}
+
+.reporting-wrapper table tr.nope td.tdTotal {
+    background: rgb(144, 20, 59);
+    color: white;
+}
+
+textarea.resulTotal {
+    font-weight: bold;
+    background: rgb(144, 20, 59);
+    color: white;
+    font-family: 'Raleway', sans-serif, arial;
+    text-align: right;
+    resize: none;
+    font-size: 1.5em;
+    vertical-align: middle;
+    width: 100px;
+    height: 34px;
+    border: none;
+}
+
+button.report-ok {
+    margin-top: 50px;
+    background-color: rgb(144, 20, 59);
+    color: white;
+    font-family: 'Raleway', sans-serif, arial;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+    width: 144px;
+    height: 34px;
+}
+
+button.report-ok:hover {
+    background-color: rgb(230, 75, 124);
+}
+
+
+/*done.php page*/
+
+.confirmation-wrapper {
+    border-radius: 7px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(220, 220, 220);
+    color: rgb(144, 20, 59);
+    padding: 20px;
+    text-align: center;
+}
+
+.confirmation-wrapper p {
+    font-family: 'Raleway', sans-serif, arial;
+    color: rgb(144, 20, 59);
+    font-size: 1.5em;
+}
+
+.confirmation-wrapper button {
+    font-family: 'Raleway', sans-serif, arial;
+    background-color: rgb(144, 20, 59);
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    font-size: 1em;
+    padding: 5px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.confirmation-wrapper button:hover {
+    background-color: rgb(230, 75, 124);
+}
