@@ -15,6 +15,14 @@ Other fucntionalities:
   > error handling:
     > missing data: automatic fill 0 on given inputs; and force input on other else no sending possible
   > record patial data if user can't input everything at once, and continue later  
+
+******
+ISSUES
+******
+> make it HTTPS
+> make sure SQL injections are impossible
+
+
 ***********************
 INPUTS & OUTPUTS DETAIL
 ***********************
